@@ -1,0 +1,29 @@
+.button {
+    font-size: 24px;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .button:active {
+    transform: scale(0.95);
+  }
+  
+  .operation {
+    background-color: #ff9800;
+  }
+  
+  .operation:hover {
+    background-color: #e68a00;
+  }
+  
